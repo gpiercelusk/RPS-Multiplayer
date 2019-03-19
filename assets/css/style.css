@@ -1,0 +1,34 @@
+body{
+  background: url("../images/RSbkg4.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+ 
+}
+.jumbotron{
+  color: orange;
+  background: url("../images/RSbkg2.jpg");
+  font-family: 'Shadows Into Light', cursive;
+  background-position: right;
+  background-size: cover;
+}
+.chatWindow {
+  background: whitesmoke;
+	border: solid gray 2px;
+	overflow-y: auto;
+	overflow-x: auto;
+  height: 5rem;
+  font-family: 'Patrick Hand', cursive;
+}
+.player1,
+.player2,
+#playArea,
+#btn-input,
+#name{
+  background:whitesmoke;
+  font-family: 'Patrick Hand', cursive;
+}
+.btn{
+   font-family: 'Patrick Hand', cursive;
+}
