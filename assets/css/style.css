@@ -6,8 +6,11 @@ body{
   background-size: cover;
  
 }
+#hidden{
+  /* display: none; */
+}
 .jumbotron{
-  color: orange;
+  color: rgba(255, 0, 111, 0.646);
   background: url("../images/RSbkg2.jpg");
   font-family: 'Shadows Into Light', cursive;
   background-position: right;
