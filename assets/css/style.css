@@ -19,9 +19,8 @@ body{
 .chatWindow {
   background: whitesmoke;
 	border: solid gray 2px;
-	overflow-y: auto;
-	overflow-x: auto;
-  height: 5rem;
+	overflow: auto;
+  height: 100px;
   font-family: 'Patrick Hand', cursive;
 }
 .player1,

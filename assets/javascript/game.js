@@ -7,3 +7,15 @@ var config = {
   messagingSenderId: "958621680901"
 };
 firebase.initializeApp(config);
+
+var player = {
+
+  name: "",
+  wins: 0,
+  losses: 0,
+  ties: 0,
+  choice: 3
+}
+
+var userOneJoin = false;
+var userTwoJoin = false;
